@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box
+}
+
+.round-box {
+  position: relative;
+  margin: 0;
+  border: 1px solid rgba(25, 223, 179, 0);
+  border-radius: 1.33333vw
+}
+
+body {
+  margin: 0;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  background: #fff;
+  font-size: 3.2vw;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+#app,
+.layout-container,
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden
+}
+
+.home-page .dynamic_finance_container .switch_container .block_container .block_content .block_income_item,
+.switch_container .block_container .block_content .block_item,
+.switch_container .home-page .dynamic_finance_container .block_container .block_content .block_income_item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.26667vw
+}
+
+.home-page .dynamic_finance_container .switch_container .block_container .block_content .block_income_item .value,
+.switch_container .block_container .block_content .block_item .value,
+.switch_container .home-page .dynamic_finance_container .block_container .block_content .block_income_item .value {
+  font-weight: 700
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column
+}
+
+.layout-body {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch
+}
+
+.fc1,
+.promotion-body {
+  color: #a1a1b3
+}
+
+.fc2 {
+  color: #000
+}
+
+.fc3 {
+  color: #2082fe
+}
+
+.ff {
+  font-family: DINMittelschrift
+}
+
+.bc1,
+.bc2 {
+  background: #6660b1
+}
